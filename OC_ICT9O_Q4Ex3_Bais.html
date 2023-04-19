@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ICT9O | Q4 | Excercise 3</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #2FF9FB;">
+	<h1 style="font-family: 'Lora', serif; background-color: #0B4CD4; color: white;"><span> Exercise 3 - JavaScript Arithmetic Operators</span></h1>
+	<p><mark>x = 10, y = 5</mark></p>
+
+	<ol type="1.">
+		<li>x + y = <strong id="n1"></strong></li>
+		<li>y - x = <strong id="n2"></strong></li>
+		<li>y * x = <strong id="n3"></strong></li>
+		<li>x / y = <strong id="n4"></strong></li>
+		<li>y % x = <strong id="n5"></strong></li>
+	</ol>
+
+	<script type="text/javascript">
+		let x = 10, y = 5;
+		let sum = x + y;
+		let diff = y - x;
+		let product = y * x;
+		let quotient = x / y;
+		let modulus = y % x;
+
+		window.alert("The sum of the two number:" + sum)
+		window.alert("The difference of the two number:" + diff)
+		window.alert("The product of the two number:" + product)
+		window.alert("The quotient of the two number:" + quotient)
+		window.alert("The modulus of the two number:" + modulus)
+
+		//variable declaration;assignment of values
+
+		document.getElementById("n1").innerHTML = x + y;
+		document.getElementById("n2").innerHTML = y - x;
+		document.getElementById("n3").innerHTML = y * x;
+		document.getElementById("n4").innerHTML = x / y;
+		document.getElementById("n5").innerHTML = y % x;
+
+	</script>
+</body>
+</html>
